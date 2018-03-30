@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFExample", "WCFExample\WCFExample.csproj", "{3BB3EAE2-76BA-4BE1-A1BB-8BAF5CEFFDD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{881EA739-DFA3-4551-BC06-3E59E1F062CD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3BB3EAE2-76BA-4BE1-A1BB-8BAF5CEFFDD3} = {3BB3EAE2-76BA-4BE1-A1BB-8BAF5CEFFDD3}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{3BB3EAE2-76BA-4BE1-A1BB-8BAF5CEFFDD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BB3EAE2-76BA-4BE1-A1BB-8BAF5CEFFDD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB3EAE2-76BA-4BE1-A1BB-8BAF5CEFFDD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{881EA739-DFA3-4551-BC06-3E59E1F062CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{881EA739-DFA3-4551-BC06-3E59E1F062CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{881EA739-DFA3-4551-BC06-3E59E1F062CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{881EA739-DFA3-4551-BC06-3E59E1F062CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
